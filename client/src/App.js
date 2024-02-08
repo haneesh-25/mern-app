@@ -25,8 +25,9 @@ function App() {
     <div>
       <h1>JSON Data from Node.js API</h1>
       <ul>
-        <li>hard coded</li>
         <li>{data.name}</li>
+        <li>{data.about}</li>
+        <li>{data.education.colleage}<ul><li>{data.education.duration}</li></ul></li>
       </ul>
     </div>
   );
